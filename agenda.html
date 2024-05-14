@@ -11,7 +11,8 @@
 <body>
     <form>
         <input type="text" id="nome" placeholder="Digite o nome:" required>
-        <input type="number" id="numero" placeholder="Digite o número" required oninput="limitarTamanho(this, 11)"> <!--oninput="limitarTamanho(this, 11)" e usado no input type number assim como o maxlength e usado no input type text-->
+        <input type="number" id="numero" placeholder="Digite o número" required oninput="limitarTamanho(this, 11)">
+        <!--oninput="limitarTamanho(this, 11)" e usado no input type number assim como o maxlength e usado no input type text-->
         <button type="button" onclick="adicionaLinha()">Salvar</button>
     </form>
 
@@ -44,4 +45,5 @@
     </table>
 </body>
 <script src="agenda.js"></script>
+
 </html>

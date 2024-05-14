@@ -116,3 +116,29 @@ footer{
     padding: 14px;
     color: beige;
 }
+
+/*@media screen and (max-width: 768px) {
+
+    .conteiner {
+        width: 90%;
+    }
+
+    /* Estilos para as seções *//*
+    section h1,
+    section h2,
+    section h3 {
+        font-size: 24px;
+    }
+
+    /* Estilos para os artigos *//*
+    .articles article {
+        flex-basis: 100%;
+    }
+
+    /* Estilos para o formulário de contato *//*
+    #contact form input,
+    #contact form textarea {
+        width: 100%;
+    }
+
+}*/
